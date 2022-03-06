@@ -1,5 +1,5 @@
 # CMPM 169 Final
-Created by: Daren Bartolucci and Shaina Mishra
+**Created by: Daren Bartolucci and Shaina Mishra
 
 Moving tesselation
 Eldrich horror theme - Cuthulu
