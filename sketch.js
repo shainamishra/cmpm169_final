@@ -59,7 +59,30 @@ function drawBoat() {
       offset = 2*x1;
     }
   }
+<<<<<<< HEAD
   // move picture
   image(img,x1,y1, 400,240);
   angle += speed;
 }
+=======
+}
+
+function drawBoat() {
+  // boat oscillation 
+  var x1 = (((sin(angle) * scalar/0.4) + 40) * sign) + offset;
+  var y1 = (sin(angle) * scalar/0.75) + 60;
+
+  // change sign so it flips direction
+  if(y1>113.315){
+    sign *=(-1);
+    if(sign == 1){ 
+      offset = 0;
+    }else{
+      offset = 2*x1;
+    }
+  }
+  // move picture
+  image(img,x1,y1, 400,240);
+  angle += speed;
+}
+>>>>>>> 23e4b0381bf240e8e663ea9a6135dea6b9f59546
