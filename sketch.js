@@ -2,6 +2,7 @@ let dx;
 let yvalues;
 let theta = 0.0;
 var offset = 0;
+var angle = 0.0;
 var scalar = 40;
 var speed = 0.05;
 var sign = 1;
