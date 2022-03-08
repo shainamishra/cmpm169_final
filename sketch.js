@@ -59,12 +59,10 @@ function drawBoat() {
       offset = 2*x1;
     }
   }
-<<<<<<< HEAD
+  
   // move picture
   image(img,x1,y1, 400,240);
   angle += speed;
-}
-=======
 }
 
 function drawBoat() {
@@ -85,4 +83,3 @@ function drawBoat() {
   image(img,x1,y1, 400,240);
   angle += speed;
 }
->>>>>>> 23e4b0381bf240e8e663ea9a6135dea6b9f59546
