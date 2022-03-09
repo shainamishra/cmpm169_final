@@ -20,6 +20,7 @@ let arms = [];
 function preload(){
   img = loadImage('boat.png');
   bg = loadImage('BG.png');
+  waves = loadSound('Stormy-sea-sound-effect.mp3');
 }
 
 function setup() {
@@ -41,6 +42,8 @@ function monsterSetup(){
 function draw() {
   //background(0,48,47);
   background(bg);
+  waves.play();
+  waves.loop();
   calcWave();
   renderWave();
   drawBoat();
