@@ -28,6 +28,9 @@ function setup() {
   dx = (TWO_PI / 1000) * 4;
   yvalues = new Array(floor(width/2));
   monsterSetup();
+  waves.play();
+  waves.setVolume(0.5);
+  waves.loop();
 }
 
 function monsterSetup(){ 
@@ -42,8 +45,6 @@ function monsterSetup(){
 function draw() {
   //background(0,48,47);
   background(bg);
-  waves.play();
-  waves.loop();
   calcWave();
   renderWave();
   drawBoat();
