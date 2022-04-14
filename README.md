@@ -1,4 +1,4 @@
-# CMPM 169 Final
+# What Hides Below - CMPM 169 Final
 **Created by: Daren Bartolucci and Shaina Mishra**
 
 * Create a final project using P5.js
